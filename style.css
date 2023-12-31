@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+
+body {
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    background-color: black;
+    color : white;
+}
+
+
+.grid{
+    margin:auto;
+    border : 1px solid white;
+    height : 63vh;
+    width : 63vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    /* border : 1px solid white;
+    box-sizing: border-box; */
+    height: 7vh;
+    width: 7vh;
+    
+}
+
+.g{
+    background-image: url('images/grass.webp');
+    background-size: cover;
+}
+
+
+
+.ending-block{
+    background-image: url('images/end.jpg');
+    background-size: cover;
+}
+/* .starting-block{
+    background-color: blue;
+} */
+
+
+/* .log-left, .log-right{
+    background-color: lightskyblue;
+} */
+
+
+/* .car-left, .car-right{
+    background-color:dimgrey;
+} */
+
+
+.l1,.l2,.l3{
+    background-image: url('images/log.jpg');
+    background-size: cover;
+}
+
+.l4,.l5{
+    background-image: url('images/water.jpg');
+    background-size: cover;
+}
+
+
+.c2,.c3{
+    background-image: url('images/road.jpg');
+    background-size: cover;
+}
+
+
+.c1{
+    background-image: url('images/carleft.png');
+    background-size: contain;
+}
+
+
+.frog{
+    background-image: url('images/frog.png');
+    background-size: cover;
+}
+
